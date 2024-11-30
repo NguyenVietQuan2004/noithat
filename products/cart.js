@@ -145,9 +145,11 @@ $(document).ready(function () {
     );
 
     localStorage.removeItem("cart");
-    renderCart();
     $("#address").val("");
     $("#freeShipping").prop("checked", true);
+    renderCart();
+    const cartNew = loadCart();
+    updateCartCount(cartNew);
   }
 
   $("#checkout-button").on("click", function () {

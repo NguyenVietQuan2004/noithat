@@ -174,6 +174,7 @@ $(document).ready(function () {
   }
 
   $("#not-login").hide();
+  $(".user-avatar").hide();
   function handleLoginSuccess(user) {
     localStorage.setItem("currentUser", JSON.stringify(user));
     $("#not-login").hide();

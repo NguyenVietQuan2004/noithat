@@ -69,7 +69,7 @@ function displayProducts(products) {
     //                 <img src="../${product.image1}" class="product-image" alt="${product.name}">
     //                 <div class="product-info">
     //                     <h4 mb-2 fw-bold>${product.name}</h4>
-    //                     <p class="price text-center fs-5">${product.price} VNĐ</p>
+    //                     <p class="price text-center fs-5">${product.price} $</p>
     //                     <div class="rating text-center">
     //                         ${getStars(product.rating)}
     //                     </div>

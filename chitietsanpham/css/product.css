@@ -113,13 +113,22 @@
   width: 100%;
   height: 100%;
 }
+#modal {
+  z-index: 999;
+}
+
 .breadcrumb-item:hover {
   font-weight: bold;
 }
 .product-links-wap a {
   opacity: 0.3;
 }
-
+#wrapper-modal-login {
+  z-index: 999;
+}
+.modal-img {
+  max-height: 80vh;
+}
 .product-links-wap a:hover,
 .product-links-wap a:focus,
 .product-links-wap .img-is-selected {

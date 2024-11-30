@@ -17,6 +17,14 @@ button {
   background-color: gold;
   color: white;
 }
+#modal {
+  z-index: 999;
+}
+#wrapper-modal-login {
+  z-index: 999;
+  max-width: 100vw;
+}
+
 ul {
   margin: 0 !important;
 }
@@ -129,7 +137,7 @@ button:disabled {
 }
 .icon-cart span {
   position: absolute;
-  background-color: red;
+  background-color: gold;
   width: 20px;
   height: 20px;
   display: flex;
@@ -140,10 +148,16 @@ button:disabled {
   top: -11px;
   left: 2px;
 }
+.nav-link.active {
+  color: gold !important;
+}
 
 @media (max-width: 992px) {
   /* Các kiểu CSS sẽ áp dụng cho màn hình có chiều rộng nhỏ hơn hoặc bằng 768px */
   .height-outlet {
     height: auto;
+  }
+  #img-deal {
+    aspect-ratio: 1/1;
   }
 }
